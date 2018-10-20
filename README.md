@@ -34,3 +34,4 @@ The desired orientation of the tabs (horizontal or vertical)
 **onTabSelect** - (type: func, default: () => {})<br>
 Callback for what to do when a tab is selected
 
+![alt text](https://cl.ly/8bc15ffce548/Screen%20Shot%202018-10-20%20at%201.13.53%20PM.png)
