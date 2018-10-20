@@ -1,0 +1,26 @@
+{
+    "name": "cccisd-tabs",
+    "version": "1.0.0",
+    "description": "3C Institute bootstrap tabs component",
+    "main": "dist/tabs.js",
+    "author": "Brandon Waltz <bwaltz6@gmail.com>",
+    "license": "MIT",
+    "repository": "git@github.com:bwaltz/cccisd-tabs.git",
+    "scripts": {
+        "build": "bin/build.js"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "rimraf": "^2.6.2",
+        "shelljs": "^0.8.2"
+    },
+    "dependencies": {
+        "lodash": "^4.17.10",
+        "prop-types": "^15.5.10",
+        "react": "^15.4.2",
+        "react-dom": "^15.0.0"
+    }
+}

@@ -1,0 +1,27 @@
+.tabs {
+    margin-bottom: 10px;
+}
+.vertical {
+    .tabsLeft {
+        border-bottom: none;
+        padding-top: 2px;
+        border-right: 1px solid #ddd;
+
+        > li {
+            float: none;
+            margin-bottom: 2px;
+            margin-right: -1px;
+            > a {
+                border-radius: 4px 0 0 4px;
+                margin-right: 0;
+                display: block;
+            }
+        }
+        > li:global.active {
+            > a {
+                border-bottom-color: #ddd !important;
+                border-right-color: transparent;
+            }
+        }
+    }
+}
